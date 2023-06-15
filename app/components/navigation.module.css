@@ -1,0 +1,19 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.header {
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 5px;
+}
+.navigation a {
+  text-decoration: none;
+  color: blueviolet;
+}
+.header a:hover {
+  color: red;
+  text-decoration: underline;
+}
