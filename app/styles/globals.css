@@ -12,7 +12,9 @@ body {
   margin: 0px auto;
 }
 
-
+h2{
+  font-family: var(--space-Grotesk), sans-serif;
+}
 
 @media (prefers-color-scheme: dark) {
   html {

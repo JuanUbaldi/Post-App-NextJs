@@ -15,10 +15,10 @@ export default async function PostsPage() {
         <div key={post.id}>
           <Link href="/Posts/[id]" as={`/Posts/${post.id}`}>
             <h2>{post.title}</h2>
+            <p>{post.body}</p>
           </Link>
-          <p>{post.body}</p>
+
           <LikeButton />
-          
         </div>
       ))}
     </div>

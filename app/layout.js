@@ -1,8 +1,6 @@
 import Navigation from "./components/navigation";
 import "./styles/globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import { font } from "./font.js";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,10 +11,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Mi primer app </title>
+        <title>La socialApp de blogs :D</title>
       </head>
 
-      <body>
+      <body className={font.variable}>
         <Navigation />
         {children}
       </body>
